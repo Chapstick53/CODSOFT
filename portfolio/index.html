@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/darkmode.css">
+</head>
+<body>
+    <div id="loading-screen">
+        <h1>Welcome to My Portfolio</h1>
+    </div>
+
+    <header>
+        <div class="logo">My Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="dark-mode-toggle">Dark Mode</button>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <h1>Hello, I'm Arnim</h1>
+            <p>Welcome to my portfolio!</p>
+            <button>View My Work</button>
+            <button>Contact Me</button>
+        </div>
+        <img class="profile-photo" src="images/profile.jpg" alt="Profile Photo">
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>Hello! I am a dedicated BTech student pursuing Computer Science with a strong passion for programming and technology. From a young age, I've been fascinated by the potential of software to solve complex problems and enhance user experiences.</p>
+            <p>I thrive in the world of coding, constantly seeking to expand my knowledge and skills. My journey in programming has been enriched by a diverse range of projects, each contributing to my growth as a developer. These include creating intuitive GUI applications like the Password_Generator and MemeMachine, as well as developing practical solutions such as the Duplictae_Tab_Extension.</p>
+            <p>Beyond technical skills, I am deeply interested in the intersection of technology and everyday life, particularly how software can streamline processes and empower users. I am currently focused on furthering my expertise in cloud computing and DevOps, driven by a desire to build scalable and efficient applications.</p>
+            <p>Outside of coding, I enjoy exploring new technologies, participating in hackathons, and staying updated with industry trends. I am also passionate about leveraging my skills to contribute meaningfully to projects that have a positive impact.</p>
+            <p>I look forward to sharing my journey and projects with you through my portfolio. Feel free to explore my work and connect with me to discuss opportunities for collaboration or simply to geek out about the latest tech innovations!</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <ul>
+                <li><strong>Programming Languages:</strong> Proficient in Java, Python.</li>
+                <li><strong>Web Technologies:</strong> Familiar with HTML, CSS, JavaScript.</li>
+                <li><strong>GUI Development:</strong> Experience in creating intuitive graphical user interfaces.</li>
+                <li><strong>Software Development:</strong> Strong understanding of software design principles and best practices.</li>
+                <li><strong>Version Control:</strong> Proficient with Git for version control.</li>
+                <li><strong>Problem Solving:</strong> Skilled in analyzing problems and designing efficient solutions.</li>
+                <li><strong>Cloud Computing and DevOps:</strong> Currently expanding knowledge in cloud computing and DevOps practices.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-item">
+                <img src="images/project1.png" alt="Project 1">
+                <div class="overlay">
+                    <div class="text"><a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a></div>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="images/project2.png" alt="Project 2">
+                <div class="overlay">
+                    <div class="text"><a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a></div>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="images/project3.png" alt="Project 2">
+                <div class="overlay">
+                    <div class="text"><a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a></div>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="images/project4.png" alt="Project 2">
+                <div class="overlay">
+                    <div class="text"><a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a></div>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="images/project5.png" alt="Project 2">
+                <div class="overlay">
+                    <div class="text"><a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-container">
+            <h4>Academic Pursuits</h4>
+            <ul>
+                <li><strong>BTech in Computer Science:</strong> Ongoing studies in Computer Science with a focus on software development and programming languages.</li>
+            </ul>
+            <h4>Hackathons</h4>
+            <ul>
+                <li><strong>Hackathon Participant:</strong> Actively participate in hackathons to collaborate on innovative projects and explore emerging technologies.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-container">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="js/particles.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+</html>

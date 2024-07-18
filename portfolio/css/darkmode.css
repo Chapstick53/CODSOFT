@@ -1,0 +1,16 @@
+body.dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+header.dark-mode {
+    background: linear-gradient(45deg, #483d8b, #20b2aa);
+}
+
+footer.dark-mode {
+    background: #222;
+}
+
+header.dark-mode button {
+    border-color: #f4f4f4;
+}
